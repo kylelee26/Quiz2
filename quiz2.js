@@ -1,4 +1,4 @@
-var tags = "李知恩";
+var tags = "裴秀智";
 var dataUrl = "https://api.flickr.com/services/feeds/photos_public.gne?tags=" + tags+"&tagmode=any&format=json&per_page=400&jsoncallback=?";
 var data = $.getJSON(dataUrl);
 
